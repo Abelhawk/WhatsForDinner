@@ -1,0 +1,110 @@
+body {
+    color: #7a2f23;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: lighter;
+    color: white;
+}
+.container {
+    display: flex;
+    width: 50%;
+    margin: 20px auto 0 auto;
+}
+
+button, a {
+    background: #7a2f23;
+}
+
+button:hover, a:hover {
+    color: #7a2f23;
+}
+
+.generate {
+    color: #7a2f23;
+    border: 1px gray solid;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-size: 24pt;
+    font-family: serif;
+}
+.choices {
+    margin-bottom: 20px;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    font-size: 14pt;
+}
+label {
+    user-select: none;
+}
+
+.note {
+    color: #b8a161;
+    font-size: 10px;
+    font-style: italic;
+}
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: lighter;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 0 auto;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: center;
+}
+.left {
+    margin-right: 2%;
+    text-align: right;
+}
+.right {
+    text-align: right;
+    align-content: center;
+}
+
+.generate {
+    border: 1px gray solid;
+    text-align: center;
+    min-width: 70%;
+}
+
+button, a {
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    font-size: 14pt;
+    width: 60%;
+}
+
+button:hover, a:hover {
+    color: white;
+}
+
+.back-button {
+    margin-top: 50px;
+}
