@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a7d1804-336f-478c-8b64-75ef3618056c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/triggers.js" beforeDir="false" afterPath="$PROJECT_DIR$/triggers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/recipes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <updated>1584380274534</updated>
       <workItem from="1584380275845" duration="1300000" />
       <workItem from="1593103395306" duration="4092000" />
-      <workItem from="1593109856710" duration="2580000" />
+      <workItem from="1593109856710" duration="3606000" />
     </task>
     <servers />
   </component>
@@ -76,9 +74,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593110881721">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593113503585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593110881721" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593113503585" />
   </component>
 </project>

@@ -16,7 +16,7 @@ let dinners = [
     "taco salad", "chef salad", "Chicken Penne Doolittle", "macaroni & cheese-burger",
     "chili cheese fries", "enchiladas", "tetrazinni", "BLT street tacos", "buttered noodles",
     "hot dog boats", "BLTs", "breakfast for dinner", "dutch oven meat and spuds",
-    "Hawaiian haystacks"
+    "Hawaiian haystacks", "crunch wraps"
 ];
 
 let breakfasts = [
@@ -26,7 +26,9 @@ let breakfasts = [
     "shakshuka", "crepes", "German pancakes", "blueberry pancakes",
     "cinnamon rolls", "coffee cake", "muffins", "frittata", "quiche",
     "scrambled eggs O’Brien", "smoothies", "eggs in a hole", "deviled eggs",
-    "Monte Cristo sandwiches", "Uncle Var's dutch-oven spuds", "whole wheat waffles"
+    "Monte Cristo sandwiches", "Uncle Var's dutch-oven spuds", "whole wheat waffles",
+    "yogurt granola parfaits", "oatmeal", "Fūl Medames", "huevos rancheros",
+    "cuscuz", "breakfast BLTs", "donuts", "avocado toast", "hash browns"
 ];
 
 let desserts = [
@@ -41,5 +43,12 @@ let desserts = [
     "rhubarb muffins", "pumpkin chocolate chip muffins", "banana cream pie",
     "orange rolls", "lemon bread", "Muddy Buddies", "kettle corn", "kugel",
     "Chex Crack", "ice cream sandwiches", "cheesecake", "lemon meringue pie",
-    "banana splits", "marshmallow brownies"
+    "banana splits", "marshmallow brownies", "homemade Oreos", "grasshopper pie",
+    "a pazookie", "dessert pizza", "better than X cake", "parfait", "trifle",
+    "turnovers", "donuts", "black cherry floats", "macarons", "macaroons",
+    "divinity", "cake roll", "snickerdoodles", "snickerdoodle blondies", "chocolate crinkle cookies",
+    "fruit tarts", "Jello cottage cheese salad", "cathedral window cookies",
+    "popsicles", "frozen yogurt", "lemon bars", "fudge", "blondies", "candied nuts",
+    "peppermint bark", "toffee", "brigadeiro", "quindins", "fruit and dip", "frozen bananas",
+    "caramel corn", "frosted sugar cookies", "slush", "angel food cake"
 ];
