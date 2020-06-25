@@ -16,7 +16,10 @@ let dinners = [
     "taco salad", "chef salad", "Chicken Penne Doolittle", "macaroni & cheese-burger",
     "chili cheese fries", "enchiladas", "tetrazinni", "BLT street tacos", "buttered noodles",
     "hot dog boats", "BLTs", "breakfast for dinner", "dutch oven meat and spuds",
-    "Hawaiian haystacks", "crunch wraps"
+    "Hawaiian haystacks", "crunch wraps", "Missionary Surprise", "Dad's ground beef stew",
+    "Ramen noodles", "sweet and sour chicken on rice", "Salisbury steak", "grilled cheese and tomato soup",
+    "gourmet macaroni and cheese", "Sloppy Joes", "potato soup", "chili dogs", "French dip",
+    "baked chicken legs and thighs", "Kahlua pork"
 ];
 
 let breakfasts = [
@@ -50,5 +53,6 @@ let desserts = [
     "fruit tarts", "Jello cottage cheese salad", "cathedral window cookies",
     "popsicles", "frozen yogurt", "lemon bars", "fudge", "blondies", "candied nuts",
     "peppermint bark", "toffee", "brigadeiro", "quindins", "fruit and dip", "frozen bananas",
-    "caramel corn", "frosted sugar cookies", "slush", "angel food cake"
+    "caramel corn", "frosted sugar cookies", "slush", "angel food cake",
+    "buckeyes", "cobbler"
 ];
