@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recipe Creator</title>
+    <title>What's for Dinner?</title>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
             integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
@@ -10,38 +10,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="general.css">
     <link rel="icon" href="favicon2.ico">
-    <script src="words.js" defer></script>
-    <script src="town-gen-triggers.js" defer></script>
+    <script src="recipes.js" defer></script>
+    <script src="triggers.js" defer></script>
 
 </head>
 <body>
-<div id="hide-this-when-published"
-<h1>Recipe Creator</h1>
+<h1>What's for Dinner?</h1>
+<h2>Meals Roulette</h2>
 <div class="container">
-            <form>
-                <div class="choices">
-                    <label for="recipeName">Recipe Name</label>
-                    <input type="text" id="recipeName" value="" placeholder="Chicken Noodle Soup"><br>
-                    <label for="meal">Meal</label>
-                    <input type="radio" id="meal" name="mealOrSide" value="meal" checked>
-                    <label for="meal">Dessert</label>
-                    <input type="radio" id="dessert" name="mealOrSide" value="meal">
-                    <label for="meal">Side</label>
-                    <input type="radio" id="side" name="mealOrSide" value="meal"><br>
-                    <label for="nationality">Nationality</label>
-                    <select id="nationality" name="biome" disabled="mealOrSide()">
-                        <option value="american">American</option>
-                        <option value="american">Mexican</option>
-                        <option value="american">Italian</option>
-                        <option value="american">Asian</option>
-                    </select>
-                </div>
-            </form>
-        </div>
-    <button type="submit" onclick="activate()">Save Recipe!</button>
+    <div id="result"><p>Hmmm...</p></div>
 </div>
+<button type="submit" class="dinnerBtn" onclick="randomDinner()">What should I have for dinner?</button>
+<button type="submit" class="dessertBtn" onclick="randomDessert()">What should I have for dessert?</button>
+<button type="submit" class="breakfastBtn" onclick="randomBreakfast()">What should I have for breakfast?</button>
 
-<div class="generate"></div>
-<div class="container"><a class="back-button" href="../index.html">Back</a></div>
+<div class="credit">by Austin "Abelhawk" Ballard</div>
 </body>
 </html>

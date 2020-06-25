@@ -1,38 +1,61 @@
 body {
     color: #7a2f23;
 }
+
 h1 {
     text-align: center;
     font-family: serif;
     font-weight: lighter;
     color: white;
+    margin-bottom: 0;
 }
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
 .container {
     display: flex;
     width: 50%;
     margin: 20px auto 0 auto;
 }
 
-button, a {
-    background: #7a2f23;
-}
-
-button:hover, a:hover {
-    color: #7a2f23;
-}
-
-.generate {
-    color: #7a2f23;
-    border: 1px gray solid;
-    width: 70%;
-    text-align: center;
+#result {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    height: 130px;
     margin: auto;
-    padding: 15px;
-    font-size: 24pt;
-    font-family: serif;
 }
-.choices {
-    margin-bottom: 20px;
+
+.dinnerBtn {
+    background-color: #996600;
+}
+.dinnerBtn:hover {
+    background-color: #cc9900;
+    color: white;
+}
+
+.dessertBtn {
+    background-color: #ff66b3;
+    color: white;
+}
+.dessertBtn:hover {
+    background-color: #ffb3d9;
+    color: black;
+}
+
+.breakfastBtn {
+    background-color: #ffcc00;
+}
+.breakfastBtn:hover {
+    background-color: #b38f00;
+    color: white;
 }
 
 button {
@@ -41,51 +64,10 @@ button {
     margin: 10px auto;
     font-size: 14pt;
 }
-label {
-    user-select: none;
-}
-
-.note {
-    color: #b8a161;
-    font-size: 10px;
-    font-style: italic;
-}
 
 body {
     background-color: gray;
     font-family: sans-serif;
-}
-h1 {
-    text-align: center;
-    font-family: serif;
-    font-weight: lighter;
-    color: white;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 50%;
-    margin: 20px auto 0 auto;
-}
-
-.two-columns {
-    display: flex;
-    justify-content: center;
-}
-.left {
-    margin-right: 2%;
-    text-align: right;
-}
-.right {
-    text-align: right;
-    align-content: center;
-}
-
-.generate {
-    border: 1px gray solid;
-    text-align: center;
-    min-width: 70%;
 }
 
 button, a {
@@ -99,12 +81,12 @@ button, a {
     margin: 10px auto;
     font-size: 14pt;
     width: 60%;
+    background: #7a2f23;
 }
 
-button:hover, a:hover {
-    color: white;
-}
-
-.back-button {
-    margin-top: 50px;
+.credit {
+    position: fixed;
+    bottom: 50px;
+    font-size: 15px;
+    color: #606060;
 }
