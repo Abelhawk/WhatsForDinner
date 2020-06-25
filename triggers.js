@@ -1,19 +1,77 @@
 let textField = $('#result');
 
+let dinnersJa = [];
+let dessertsJa = [];
+let breakfastsJa = [];
+
 function randomDinner() {
-    textField.html(`<p>How about ${dinners[rando(dinners.length)]}?</p>`);
+    let meal = "";
+    let number = -1;
+    let newRecipe = false;
+    if (dinnersJa.length !== dinners.length) {
+        while (!newRecipe) {
+            number = rando(dinners.length);
+            newRecipe = true;
+            for (let i = 0; i < dinnersJa.length; i++) {
+                if (dinnersJa[i] === number) {
+                    newRecipe = false;
+                }
+            }
+        }
+        meal = dinners[number];
+        dinnersJa.push(number);
+        textField.html(`<p>How about ${meal}?</p>`);
+    } else {
+        textField.html(`<p class="smaller">Well, I can't think of anything else. Maybe go out to eat or flip through a cookbook?</p>`);
+    }
 }
 
 function randomDessert() {
-    textField.html(`<p>How about ${desserts[rando(desserts.length)]}?</p>`);
+    let meal = "";
+    let number = -1;
+    let newRecipe = false;
+    if (dessertsJa.length !== desserts.length) {
+        while (!newRecipe) {
+            number = rando(desserts.length);
+            newRecipe = true;
+            for (let i = 0; i < dessertsJa.length; i++) {
+                if (dessertsJa[i] === number) {
+                    newRecipe = false;
+                }
+            }
+        }
+        meal = desserts[number];
+        dessertsJa.push(number);
+        textField.html(`<p>How about ${meal}?</p>`);
+    } else {
+        textField.html(`<p class="smaller">Well, I can't think of anything else. Maybe go to a bakery or flip through a cookbook?</p>`);
+    }
 }
 
 function randomBreakfast() {
-    textField.html(`<p>How about ${breakfasts[rando(breakfasts.length)]}?</p>`);
+    let meal = "";
+    let number = -1;
+    let newRecipe = false;
+    if (breakfastsJa.length !== breakfasts.length) {
+        while (!newRecipe) {
+            number = rando(breakfasts.length);
+            newRecipe = true;
+            for (let i = 0; i < breakfastsJa.length; i++) {
+                if (breakfastsJa[i] === number) {
+                    newRecipe = false;
+                }
+            }
+        }
+        meal = breakfasts[number];
+        breakfastsJa.push(number);
+        textField.html(`<p>How about ${meal}?</p>`);
+    } else {
+        textField.html(`<p class="smaller">Well, I can't think of anything else. Maybe just have cereal?</p>`);
+    }
 }
 
 //----------------------------------------------------------------
 
-function rando(probability){
+function rando(probability) {
     return Math.floor(Math.random() * probability);
 }
