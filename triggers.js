@@ -3,6 +3,7 @@ let textField = $('#result');
 let dinnersJa = [];
 let dessertsJa = [];
 let breakfastsJa = [];
+let snacksJa = [];
 
 function randomDinner() {
     let meal = "";
@@ -67,6 +68,28 @@ function randomBreakfast() {
         textField.html(`<p>How about ${meal}?</p>`);
     } else {
         textField.html(`<p class="smaller">Well, I can't think of anything else. Maybe just have cereal?</p>`);
+    }
+}
+
+function randomSnack() {
+    let meal = "";
+    let number = -1;
+    let newRecipe = false;
+    if (snacksJa.length !== snacks.length) {
+        while (!newRecipe) {
+            number = rando(snacks.length);
+            newRecipe = true;
+            for (let i = 0; i < snacksJa.length; i++) {
+                if (snacksJa[i] === number) {
+                    newRecipe = false;
+                }
+            }
+        }
+        meal = snacks[number];
+        snacksJa.push(number);
+        textField.html(`<p>How about ${meal}?</p>`);
+    } else {
+        textField.html(`<p class="smaller">Well, I'm out of ideas. Maybe just buy a bag of chips?</p>`);
     }
 }
 

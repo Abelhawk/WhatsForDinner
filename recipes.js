@@ -16,10 +16,11 @@ let dinners = [
     "taco salad", "chef salad", "Chicken Penne Doolittle", "macaroni & cheese-burger",
     "chili cheese fries", "enchiladas", "tetrazinni", "BLT street tacos", "buttered noodles",
     "hot dog boats", "BLTs", "breakfast for dinner", "dutch oven meat and spuds",
-    "Hawaiian haystacks", "crunch wraps", "Missionary Surprise", "Dad's ground beef stew",
+    "Chinese Sundaes", "crunch wraps", "Missionary Surprise", "Dad's ground beef stew",
     "Ramen noodles", "sweet and sour chicken on rice", "Salisbury steak", "grilled cheese and tomato soup",
     "gourmet macaroni and cheese", "Sloppy Joes", "potato soup", "chili dogs", "French dip",
-    "baked chicken legs and thighs", "Kahlua pork"
+    "baked chicken legs and thighs", "Kahlua pork", "garlic chicken pizza", "Mexican Haystacks",
+    "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis", "chili cheese fries"
 ];
 
 let breakfasts = [
@@ -31,7 +32,8 @@ let breakfasts = [
     "scrambled eggs O’Brien", "smoothies", "eggs in a hole", "deviled eggs",
     "Monte Cristo sandwiches", "Uncle Var's dutch-oven spuds", "whole wheat waffles",
     "yogurt granola parfaits", "oatmeal", "Fūl Medames", "huevos rancheros",
-    "cuscuz", "breakfast BLTs", "donuts", "avocado toast", "hash browns"
+    "cuscuz", "breakfast BLTs", "donuts", "avocado toast", "hash browns",
+    "pumpkin waffles", "breakfast casserole", "scones with honey butter"
 ];
 
 let desserts = [
@@ -43,7 +45,7 @@ let desserts = [
     "Captain Crunch", "Cinnamon Toast Crunch", "strawberry shortcake",
     "pineapple upside-down cake", "toasted coconut peanut butter cookies",
     "chocolate chip cookies", "chocolate cake", "banana bread", "pumpkin pie",
-    "rhubarb muffins", "pumpkin chocolate chip muffins", "banana cream pie",
+    "rhubarb crunch", "pumpkin chocolate chip muffins", "banana cream pie",
     "orange rolls", "lemon bread", "Muddy Buddies", "kettle corn", "kugel",
     "Chex Crack", "ice cream sandwiches", "cheesecake", "lemon meringue pie",
     "banana splits", "marshmallow brownies", "homemade Oreos", "grasshopper pie",
@@ -54,5 +56,21 @@ let desserts = [
     "popsicles", "frozen yogurt", "lemon bars", "fudge", "blondies", "candied nuts",
     "peppermint bark", "toffee", "brigadeiro", "quindins", "fruit and dip", "frozen bananas",
     "caramel corn", "frosted sugar cookies", "slush", "angel food cake",
-    "buckeyes", "cobbler"
+    "buckeyes", "cobbler", "pumpkin roll", "monkey bread", "Sandy Sherbet Pie",
+    "brigadeiro", "beijinhos", "gaumy popcorn", "lime frappé", "mango rice"
+];
+
+let snacks = [
+    "potato salad", "rhubarb muffins", "lemon poppy seed muffins", "cheeseball and crackers",
+    "Texas caviar", "ramen salad", "Caesar salad", "jalapeño poppers", "rattlesnake bites",
+    "a cactus blossom", "oven-baked potato wedges", "seven-layer dip", "pizza bites", "broccoli salad", "grilled corn on the cob",
+    "BYU-I spinach salad", "pasta salad", "coleslaw", "baked beans", "pão de queijo", "grape Jello salad",
+    "Dot's pretzels", "soft pretzels", "spinach dip", "artichoke dip", "chips and dip", "crackers and cheese",
+    "twice-baked potatoes", "mashed potatoes", "cheese sticks", "breadsticks", "fondue", "Red Lobster cheddar biscuits",
+    "roasted chickpeas", "hummus", "chips and salsa", "Li'l Smokies", "pigs in a blanket", "onion dip",
+    "taquitos", "Chex party mix", "wantons", "scones", "strawberry lemonade", "chicken nuggets", "buffalo chicken dip",
+    "buffalo wings", "cucumber sandwiches", "meatballs", "tortilla roll-ups", "chips and guacamole",
+    "macaroni and cheese", "green bean casserole", "sweet potato casserole", "deviled eggs", "risotto",
+    "roasted vegetables", "roasted potatoes", "asparagus", "tater tots", "fries", "garlic bread", "hush puppies",
+    "fondant potatoes", "fried rice", "Spanish rice", "au gratin potatoes", "rolls", "corn bread", "onion rings"
 ];

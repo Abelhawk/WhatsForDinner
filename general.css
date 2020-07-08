@@ -57,6 +57,14 @@ h2 {
     color: white;
 }
 
+.snackBtn {
+    background-color: #bfff00;
+}
+.snackBtn:hover {
+    background-color: #86b300;
+    color: white;
+}
+
 button {
     text-align: center;
     display: block;
