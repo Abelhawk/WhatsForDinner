@@ -12,7 +12,7 @@ let dinners = [
     "zucchini soup", "meatloaf", "white-bean chicken chili", "sausage-pepper pasta",
     "hosanna stew", "Greek lemon chicken soup", "CostCo rotisserie chicken",
     "ham and funeral potatoes", "baked ham & cheese", "Tasty fajita pasta", "fajitas",
-    "classic chili", "beef stew", "manicotti", "carbonara", "curry chicken salad",
+    "classic chili", "beef stew", "manicotti", "carbonara", "chicken salad sandwiches",
     "taco salad", "chef salad", "Chicken Penne Doolittle", "macaroni & cheese-burger",
     "chili cheese fries", "enchiladas", "tetrazinni", "BLT street tacos", "buttered noodles",
     "hot dog boats", "BLTs", "breakfast for dinner", "dutch oven meat and spuds",
@@ -20,7 +20,9 @@ let dinners = [
     "Ramen noodles", "sweet and sour chicken on rice", "Salisbury steak", "grilled cheese and tomato soup",
     "gourmet macaroni and cheese", "Sloppy Joes", "potato soup", "chili dogs", "French dip",
     "baked chicken legs and thighs", "Kahlua pork", "garlic chicken pizza", "Mexican Haystacks",
-    "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis", "chili cheese fries"
+    "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis", "chili cheese fries",
+    "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "Pasta Doolittle",
+    "mushroom pork chops on rice"
 ];
 
 let breakfasts = [
@@ -57,7 +59,8 @@ let desserts = [
     "peppermint bark", "toffee", "brigadeiro", "quindins", "fruit and dip", "frozen bananas",
     "caramel corn", "frosted sugar cookies", "slush", "angel food cake",
     "buckeyes", "cobbler", "pumpkin roll", "monkey bread", "Sandy Sherbet Pie",
-    "brigadeiro", "beijinhos", "gaumy popcorn", "lime frappé", "mango rice"
+    "brigadeiro", "beijinhos", "gaumy popcorn", "lime frappé", "mango rice",
+    "pecan pie", "eggnog", "mud pudding", "bread pudding"
 ];
 
 let snacks = [
@@ -72,5 +75,6 @@ let snacks = [
     "buffalo wings", "cucumber sandwiches", "meatballs", "tortilla roll-ups", "chips and guacamole",
     "macaroni and cheese", "green bean casserole", "sweet potato casserole", "deviled eggs", "risotto",
     "roasted vegetables", "roasted potatoes", "asparagus", "tater tots", "fries", "garlic bread", "hush puppies",
-    "fondant potatoes", "fried rice", "Spanish rice", "au gratin potatoes", "rolls", "corn bread", "onion rings"
+    "fondant potatoes", "fried rice", "Spanish rice", "au gratin potatoes", "rolls", "corn bread", "onion rings",
+    "sunshine carrots", "Hungarian cucumber salad", "mini corn dogs", "popcorn"
 ];
