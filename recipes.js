@@ -1,9 +1,9 @@
 let dinners = [
     "spaghetti and meatballs", "stir-fry", "pork noodles", "smash burgers",
     "Paul's chili", "feijoada", "estroganofe de frango", "chicken panquecas",
-    "bebimbap", "black bean mango stew", "chicken parmesan",
+    "bebimbap", "black bean mango stew", "chicken parmesan", "stroganoff",
     "grilled steaks and dogs", "roast and mashed potatoes", "lasagna",
-    "Brasilian lasanha", "burger dogs", "cachorro quente", "pizza",
+    "Brasilian lasanha", "burger dogs", "cachorro quente", "pizza", "gnocchi",
     "chicken fried steak", "chicken noodle soup", "chicken pot pie", "shepherd's pie",
     "chili baked potato", "espetinhos", "tacos", "sweet pulled pork", "oven nachos",
     "homemade burgers and buns", "sliders", "corned beef and Irish soda bread",
@@ -15,14 +15,14 @@ let dinners = [
     "classic chili", "beef stew", "manicotti", "carbonara", "chicken salad sandwiches",
     "taco salad", "chef salad", "Chicken Penne Doolittle", "macaroni & cheese-burger",
     "chili cheese fries", "enchiladas", "tetrazinni", "BLT street tacos", "buttered noodles",
-    "hot dog boats", "BLTs", "breakfast for dinner", "dutch oven meat and spuds",
+    "hot dog boats", "BLTs", "breakfast for dinner", "dutch oven meat and spuds", "fettucine alfredo",
     "Chinese Sundaes", "crunch wraps", "Missionary Surprise", "Dad's ground beef stew",
     "Ramen noodles", "sweet and sour chicken on rice", "Salisbury steak", "grilled cheese and tomato soup",
-    "gourmet macaroni and cheese", "Sloppy Joes", "potato soup", "chili dogs", "French dip",
+    "macaroni and cheese", "Sloppy Joes", "potato soup", "chili dogs", "French dip",
     "baked chicken legs and thighs", "Kahlua pork", "garlic chicken pizza", "Mexican Haystacks",
-    "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis", "chili cheese fries",
-    "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "Pasta Doolittle",
-    "mushroom pork chops on rice"
+    "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis",
+    "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "stuffed pasta shells",
+    "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta"
 ];
 
 let breakfasts = [
