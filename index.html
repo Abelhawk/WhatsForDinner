@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What's for Dinner?</title>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
             integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
             crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="general.css">
-    <link rel="icon" href="favicon2.ico">
+    <link rel="icon" href="WFDfavicon.png">
     <script src="recipes.js" defer></script>
     <script src="triggers.js" defer></script>
 
 </head>
 <body>
-<h1>What's for Dinner?</h1>
-<h2>Meals Roulette</h2>
+<h1 class="title1">What's for Dinner?</h1>
+<h2 class="title2">Meals Roulette</h2>
 <div class="container">
     <div id="result"><p>Hmmm...</p></div>
 </div>
-<button type="submit" class="dinnerBtn" onclick="randomSelection('dinner')">What should I have for dinner?</button>
-<button type="submit" class="dessertBtn" onclick="randomSelection('dessert')">What should I have for dessert?</button>
-<button type="submit" class="breakfastBtn" onclick="randomSelection('breakfast')">What should I have for breakfast?</button>
-<button type="submit" class="snackBtn" onclick="randomSelection('snack')">What's a good side dish or party food?</button>
+<button type="submit" class="dinnerBtn browser" onclick="randomSelection('dinner')">What should I have for dinner?
+</button>
+<button type="submit" class="dessertBtn browser" onclick="randomSelection('dessert')">What should I have for dessert?
+</button>
+<button type="submit" class="breakfastBtn browser" onclick="randomSelection('breakfast')">What should I have for
+    breakfast?
+</button>
+<button type="submit" class="snackBtn browser" onclick="randomSelection('snack')">What's a good side dish or party
+    food?
+</button>
+
+<!--Mobile Selections-->
+<div class="mobile-box">
+    <img class="mobile" src="Dinner.png" alt="dinner" onclick="randomSelection('dinner')">
+    <img class="mobile" src="Dessert.png" alt="dessert" onclick="randomSelection('dessert')">
+</div>
+<div class="mobile-box">
+    <img class="mobile" src="Breakfast.png" alt="breakfast" onclick="randomSelection('breakfast')">
+    <img class="mobile" src="Partyfood.png" alt="snacks" onclick="randomSelection('snack')">
+</div>
 
 <div class="credit">by Austin "Abelhawk" Ballard 2020</div>
 </body>

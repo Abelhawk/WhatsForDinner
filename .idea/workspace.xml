@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a7d1804-336f-478c-8b64-75ef3618056c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/recipes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,19 +56,6 @@
       <recent name="C:\Users\i25286\IdeaProjects\idev\WhatsForDinner\WhatsForDinner" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -84,7 +73,9 @@
       <workItem from="1594219870754" duration="2918000" />
       <workItem from="1594244609094" duration="154000" />
       <workItem from="1606769566240" duration="381000" />
-      <workItem from="1611682043683" duration="1238000" />
+      <workItem from="1611682043683" duration="1416000" />
+      <workItem from="1612376778187" duration="599000" />
+      <workItem from="1618863943641" duration="2312000" />
     </task>
     <servers />
   </component>

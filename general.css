@@ -1,5 +1,5 @@
 body {
-    color: #7a2f23;
+    /*color: #7a2f23;*/
 }
 
 h1 {
@@ -88,7 +88,6 @@ button, a {
     margin: 10px auto;
     font-size: 14pt;
     width: 60%;
-    background: #7a2f23;
 }
 
 .credit {
@@ -100,4 +99,41 @@ button, a {
 
 .smaller {
     font-size: 24px;
+}
+
+.mobile {
+    display: none;
+    padding: 5px;
+    width: 125px
+}
+
+.mobile-box {
+    background: none;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Mobile */
+@media only screen and (max-width: 700px) {
+    .title1 {
+        font-size: 85px;
+        margin-top: 15px;
+        line-height: 65px;
+    }
+    .title2 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .browser {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        width: 125px
+    }
+    p {
+        text-align: center !important;
+    }
 }

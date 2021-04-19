@@ -35,7 +35,8 @@ let breakfasts = [
     "Monte Cristo sandwiches", "Uncle Var's dutch-oven spuds", "whole wheat waffles",
     "yogurt granola parfaits", "oatmeal", "Fūl Medames", "huevos rancheros",
     "cuscuz", "breakfast BLTs", "donuts", "avocado toast", "hash browns",
-    "pumpkin waffles", "breakfast casserole", "scones with honey butter"
+    "pumpkin waffles", "breakfast casserole", "scones with honey butter",
+    "a pork patty sandwich"
 ];
 
 let desserts = [
