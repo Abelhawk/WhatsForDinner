@@ -118,9 +118,8 @@ button, a {
 /* Mobile */
 @media only screen and (max-width: 700px) {
     .title1 {
-        font-size: 85px;
-        margin-top: 15px;
-        line-height: 65px;
+        font-size: 45px;
+        margin: 0;
     }
     .title2 {
         font-size: 25px;
@@ -131,9 +130,12 @@ button, a {
     }
     .mobile {
         display: block;
-        width: 125px
+        width: 100px
     }
     p {
         text-align: center !important;
+    }
+    .result {
+        margin-bottom: 15px;
     }
 }
