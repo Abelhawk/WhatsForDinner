@@ -70,7 +70,7 @@ let snacks = [
     "a cactus blossom", "oven-baked potato wedges", "seven-layer dip", "pizza bites", "broccoli salad", "grilled corn on the cob",
     "BYU-I spinach salad", "pasta salad", "coleslaw", "baked beans", "pão de queijo", "grape Jello salad",
     "Dot's pretzels", "soft pretzels", "spinach dip", "artichoke dip", "chips and dip", "crackers and cheese",
-    "twice-baked potatoes", "mashed potatoes", "cheese sticks", "breadsticks", "fondue", "Red Lobster cheddar biscuits",
+    "twice-baked potatoes", "mashed potatoes", "cheese sticks", "breadsticks", "fondue", "cheddar biscuits",
     "roasted chickpeas", "hummus", "chips and salsa", "Li'l Smokies", "pigs in a blanket", "onion dip",
     "taquitos", "Chex party mix", "wantons", "scones", "strawberry lemonade", "chicken nuggets", "buffalo chicken dip",
     "buffalo wings", "cucumber sandwiches", "meatballs", "tortilla roll-ups", "chips and guacamole",

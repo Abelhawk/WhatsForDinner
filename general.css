@@ -28,7 +28,7 @@ h2 {
     font-size: 36px;
     color: black;
     font-weight: bold;
-    height: 130px;
+    min-height: 130px;
     margin: auto;
 }
 
@@ -122,8 +122,8 @@ button, a {
         margin: 0;
     }
     .title2 {
-        font-size: 25px;
-        margin-top: 10px;
+        font-size: 18px;
+        margin-top: 7px;
     }
     .browser {
         display: none;
