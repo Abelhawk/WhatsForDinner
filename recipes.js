@@ -22,7 +22,7 @@ let dinners = [
     "baked chicken legs and thighs", "Kahlua pork", "garlic chicken pizza", "Mexican Haystacks",
     "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis",
     "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "stuffed pasta shells",
-    "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta"
+    "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta", "beef bulgogi"
 ];
 
 let breakfasts = [
