@@ -1,3 +1,4 @@
+**URL:** https://abelhawk.github.io/WhatsForDinner/
 # What's for Dinner?
 
 This tool can easily suggest dinner, dessert, side, and snack options from a bank of familiar

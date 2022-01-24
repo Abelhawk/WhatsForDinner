@@ -22,7 +22,9 @@ let dinners = [
     "baked chicken legs and thighs", "Kahlua pork", "garlic chicken pizza", "Mexican Haystacks",
     "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis",
     "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "stuffed pasta shells",
-    "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta", "beef bulgogi"
+    "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta", "beef bulgogi",
+    "bolognese", "Buddha bowls", "fish pie", "rosemary lemon chicken", "cowboy spud",
+    "zuppa toscana", "buffalo wings"
 ];
 
 let breakfasts = [
@@ -61,7 +63,7 @@ let desserts = [
     "caramel corn", "frosted sugar cookies", "slush", "angel food cake",
     "buckeyes", "cobbler", "pumpkin roll", "monkey bread", "Sandy Sherbet Pie",
     "brigadeiro", "beijinhos", "gaumy popcorn", "lime frappé", "mango rice",
-    "pecan pie", "eggnog", "mud pudding", "bread pudding"
+    "pecan pie", "eggnog", "mud pudding", "bread pudding", "chocolate mousse"
 ];
 
 let snacks = [
@@ -73,9 +75,10 @@ let snacks = [
     "twice-baked potatoes", "mashed potatoes", "cheese sticks", "breadsticks", "fondue", "cheddar biscuits",
     "roasted chickpeas", "hummus", "chips and salsa", "Li'l Smokies", "pigs in a blanket", "onion dip",
     "taquitos", "Chex party mix", "wantons", "scones", "strawberry lemonade", "chicken nuggets", "buffalo chicken dip",
-    "buffalo wings", "cucumber sandwiches", "meatballs", "tortilla roll-ups", "chips and guacamole",
+    "buffalo wings", "cucumber sandwiches", "sweet and sour meatballs", "tortilla roll-ups", "chips and guacamole",
     "macaroni and cheese", "green bean casserole", "sweet potato casserole", "deviled eggs", "risotto",
     "roasted vegetables", "roasted potatoes", "asparagus", "tater tots", "fries", "garlic bread", "hush puppies",
     "fondant potatoes", "fried rice", "Spanish rice", "au gratin potatoes", "rolls", "corn bread", "onion rings",
-    "sunshine carrots", "Hungarian cucumber salad", "mini corn dogs", "popcorn"
+    "sunshine carrots", "Hungarian cucumber salad", "mini corn dogs", "popcorn", "potato skins", "nachos",
+    "bean dip"
 ];
