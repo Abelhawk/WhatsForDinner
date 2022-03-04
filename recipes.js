@@ -24,7 +24,8 @@ let dinners = [
     "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "stuffed pasta shells",
     "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta", "beef bulgogi",
     "bolognese", "Buddha bowls", "fish pie", "rosemary lemon chicken", "cowboy spud",
-    "zuppa toscana", "buffalo wings"
+    "zuppa toscana", "buffalo wings", "calzones", "Navajo tacos", "Hungarian goulash",
+    "wontons",
 ];
 
 let breakfasts = [
@@ -38,7 +39,7 @@ let breakfasts = [
     "yogurt granola parfaits", "oatmeal", "Fūl Medames", "huevos rancheros",
     "cuscuz", "breakfast BLTs", "donuts", "avocado toast", "hash browns",
     "pumpkin waffles", "breakfast casserole", "scones with honey butter",
-    "a pork patty sandwich"
+    "a pork patty sandwich", "breakfast ramen",
 ];
 
 let desserts = [
