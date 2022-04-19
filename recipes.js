@@ -19,7 +19,7 @@ let dinners = [
     "Chinese Sundaes", "crunch wraps", "Missionary Surprise", "Dad's ground beef stew",
     "Ramen noodles", "sweet and sour chicken on rice", "Salisbury steak", "grilled cheese and tomato soup",
     "macaroni and cheese", "Sloppy Joes", "potato soup", "chili dogs", "French dip",
-    "baked chicken legs and thighs", "Kahlua pork", "garlic chicken pizza", "Mexican Haystacks",
+    "baked chicken legs and thighs", "Kalua pork", "garlic chicken pizza", "Mexican Haystacks",
     "gyros", "quesadillas", "sliders", "coconut shrimp", "chicken pesto paninis",
     "jambalaya", "ribs", "split-pea soup", "creamy bratwurst stew", "stuffed pasta shells",
     "mushroom pork chops on rice", "tuna salad pitas", "pesto pasta", "beef bulgogi",
@@ -39,7 +39,7 @@ let breakfasts = [
     "yogurt granola parfaits", "oatmeal", "Fūl Medames", "huevos rancheros",
     "cuscuz", "breakfast BLTs", "donuts", "avocado toast", "hash browns",
     "pumpkin waffles", "breakfast casserole", "scones with honey butter",
-    "a pork patty sandwich", "breakfast ramen",
+    "a pork patty sandwich", "breakfast ramen", "overnight oats"
 ];
 
 let desserts = [
